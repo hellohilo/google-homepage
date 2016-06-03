@@ -1,0 +1,150 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float:right;
+  margin: 5px;
+  padding: 2px;
+}
+
+a {
+  display: inline-block;
+  background-color: transparent;
+  font-family: Arial;
+  font-size: 13px;
+  text-decoration: none;
+  color: #404040;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#container img{
+  padding-top: 25px;
+  padding-bottom: 30px;
+  text-align: center;
+  display: block;
+}
+
+#container {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.navbar {
+  padding-top: 8px;
+  margin-bottom: 20px;
+  height: 30px;
+}
+
+#profile {
+  border-radius: 100%;
+  margin-top: -5px;
+  margin-left: 5px;
+}
+
+#notifications {
+  width: 20px;
+  opacity: 0.5;
+  padding-left: 3px;
+  margin-left: 5px;
+}
+
+#notifications:hover {
+  opacity: 1;
+}
+
+#apps {
+  width: 16px;
+  opacity: 0.5;
+  padding-left: 3px;
+}
+
+#apps:hover {
+  opacity: 1;
+}
+
+.h_text {
+  margin: 2px;
+  opacity: .9;
+}
+
+.h_text:hover {
+  opacity: 1;
+}
+
+#searchbar {
+  display: block;
+  margin: 0 auto 0 auto;
+  height: 35px;
+  width: 600px;
+  border: 1px solid #dcdcdc;
+  font-size: 16px;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  position:fixed;
+  display:block;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  background-color: #f1f1f1;
+  border: 1px solid #dcdcdc;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+#left {
+  float:left;
+  margin-top: 6px;
+  opacity: .9;
+}
+
+#right {
+  float: right;
+  margin-top: 6px;
+  opacity: .9;
+}
+
+.ftext {
+  padding-left: 20px;
+}
+
+button {
+  display: inline-block;
+  margin-top: 30px;
+  height: 35px;
+  min-width: 70px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #444;
+  opacity: .7;
+}
+
+button:hover {
+  opacity: 1;
+  border: .5px solid #bababa;
+}
+
+form {
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.search {
+  display: block;
+  margin-bottom: 15px;
+  width: 570px;
+  height: 30px;
+}
